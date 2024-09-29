@@ -1,0 +1,71 @@
+body{ background-color: rgb(255, 239, 210);}
+p{text-align: center;}
+h1{text-align: center;}
+h2{text-align: center;}
+ul{
+  text-align: center;
+  list-style-position: inside;
+}
+table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+iframe{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+form{
+  text-align: center;
+}
+
+nav{
+  background-color: wheat;
+}
+
+form input#name{
+  width: 15%;
+}
+form input#email{
+  width: 25%;
+}
+form input#age{
+  width: 5%;
+}
+form textarea#message{
+  width: 40%;
+}
+.underline{
+  text-decoration-line: underline;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.suse_brown {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: saddlebrown;
+}
+.prof_pic{
+  height: 250px;
+  width: 200px;
+  margin-right: 150px;
+}
+.suse_black{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+.menu{
+  list-style-type:none;
+  display: flex;
+}
